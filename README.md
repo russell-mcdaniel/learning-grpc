@@ -1,2 +1,3 @@
-# learning-grpc
-A learning project for gRPC
+# Learning gRPC
+
+A learning project for gRPC.
