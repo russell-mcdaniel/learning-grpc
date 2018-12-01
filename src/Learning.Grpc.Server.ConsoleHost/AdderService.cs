@@ -8,7 +8,7 @@ namespace Learning.Grpc.Server.ConsoleHost
     {
         public override Task<Number> AddSimple(Number request, ServerCallContext context)
         {
-            var numberAdd = new Random().NextDouble() - 1.0;
+            var numberAdd = new Random().NextDouble() - 0.5;
             var numberNew = request.Value + numberAdd;
 
             return Task.FromResult(new Number { Value = numberNew });

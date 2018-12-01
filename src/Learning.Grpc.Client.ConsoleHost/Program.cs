@@ -7,7 +7,7 @@ namespace Learning.Grpc.Client.ConsoleHost
     {
         static void Main(string[] args)
         {
-            var number = new Random().NextDouble() - 1.0;
+            var number = new Random().NextDouble() - 0.5;
 
             var channel = new GoogleGrpc.Core.Channel("localhost:50000", GoogleGrpc.Core.ChannelCredentials.Insecure);
             var client = new Adder.AdderClient(channel);
