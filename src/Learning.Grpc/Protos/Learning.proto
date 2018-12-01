@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+
+package Learning.Grpc;
+
+message Number {
+  double value = 1;
+}
+
+service Adder {
+  rpc AddSimple(Number) returns (Number);
+  rpc AddServerStream(Number) returns (stream Number);
+  rpc AddClientStream(stream Number) returns (Number);
+  rpc AddBidirectional(stream Number) returns (stream Number);
+}
