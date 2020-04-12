@@ -13,5 +13,23 @@ namespace Learning.Grpc.Server.ConsoleHost
 
             return Task.FromResult(new Number { Value = numberNew });
         }
+
+        public override Task AddServerStream(Number request, IServerStreamWriter<Number> responseStream, ServerCallContext context)
+        {
+            //return base.AddServerStream(request, responseStream, context);
+            throw new NotImplementedException();
+        }
+
+        public override Task<Number> AddClientStream(IAsyncStreamReader<Number> requestStream, ServerCallContext context)
+        {
+            //return base.AddClientStream(requestStream, context);
+            throw new NotImplementedException();
+        }
+
+        public override Task AddBidirectional(IAsyncStreamReader<Number> requestStream, IServerStreamWriter<Number> responseStream, ServerCallContext context)
+        {
+            //return base.AddBidirectional(requestStream, responseStream, context);
+            throw new NotImplementedException();
+        }
     }
 }
