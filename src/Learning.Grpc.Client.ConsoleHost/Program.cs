@@ -48,10 +48,9 @@ namespace Learning.Grpc.Client.ConsoleHost
             {
                 var stream = call.ResponseStream;
 
-                while (await stream.MoveNext())
-                {
-
-                }
+                //while (await stream.MoveNext())
+                //{
+                //}
             }
         }
 

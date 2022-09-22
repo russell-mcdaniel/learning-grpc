@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.Grpc.Server.ConsoleHost", "Learning.Grpc.Server.ConsoleHost\Learning.Grpc.Server.ConsoleHost.csproj", "{E25FD466-BB47-4B22-BCB0-EA90DF42A30D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning.Grpc.Server.ConsoleHost", "Learning.Grpc.Server.ConsoleHost\Learning.Grpc.Server.ConsoleHost.csproj", "{E25FD466-BB47-4B22-BCB0-EA90DF42A30D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.Grpc.Client.ConsoleHost", "Learning.Grpc.Client.ConsoleHost\Learning.Grpc.Client.ConsoleHost.csproj", "{D736ED73-939B-45BB-8848-4F84ACFABDF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning.Grpc.Client.ConsoleHost", "Learning.Grpc.Client.ConsoleHost\Learning.Grpc.Client.ConsoleHost.csproj", "{D736ED73-939B-45BB-8848-4F84ACFABDF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.Grpc", "Learning.Grpc\Learning.Grpc.csproj", "{7001328D-A587-478F-9460-561D3A24CEF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning.Grpc", "Learning.Grpc\Learning.Grpc.csproj", "{7001328D-A587-478F-9460-561D3A24CEF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
