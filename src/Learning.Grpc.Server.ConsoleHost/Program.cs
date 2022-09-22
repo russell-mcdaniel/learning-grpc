@@ -19,7 +19,7 @@ namespace Learning.Grpc.Server.ConsoleHost
 
             Console.WriteLine("The gRPC server is listening.");
             Console.WriteLine();
-            Console.WriteLine("Press Enter to shut down the server.");
+            Console.WriteLine("Press Enter to exit.");
             Console.ReadLine();
 
             server.ShutdownAsync().Wait();
